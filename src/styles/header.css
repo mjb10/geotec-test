@@ -1,0 +1,9 @@
+header{
+    width: 100vw;
+    background: var(--blue);
+    height: var(--header-height);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

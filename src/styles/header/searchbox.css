@@ -1,0 +1,28 @@
+.searchbox{
+    border-bottom: 1px solid var(--white);
+    width: 300px;
+    padding: 0px 0;
+    display: flex;
+}
+
+.searchbox input,
+.searchbox input::placeholder,
+.searchbox i{
+    color: var(--white);
+}
+
+.searchbox input{
+    width: 100%;
+    font-family: latoregular;
+}
+
+.searchbox i{
+    font-size: 14px;
+}
+
+.searchbox button{
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px 6px;
+}

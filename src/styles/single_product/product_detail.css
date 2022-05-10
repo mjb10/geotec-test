@@ -1,0 +1,128 @@
+:root{
+    --padding_p_detail: 20px;
+}
+
+#product_detail_div{
+    margin: 0;
+}
+
+#product_detail_div > div{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.backButton{
+    --size: 32px;
+    border-radius: 50%;
+    background-color: var(--blue);
+    height: var(--size);
+    width: var(--size);
+    box-shadow: var(--shadow);
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.backButton i{
+    color: var(--white);
+    font-size: 15px;
+}
+
+#product_detail{
+    background: white;
+    width: 50vw;
+    padding: var(--padding_p_detail);
+    box-shadow: var(--shadow);
+}
+
+#product_detail > div:first-child{
+    margin-bottom: var(--padding_p_detail);
+}
+
+#product_detail > div:first-child h1{
+    font-size: 24px;
+    font-family: arial;
+}
+
+#product_detail > div:first-child h2{
+    font-size: 14px;
+    color: var(--grey);
+    font-family: arial;
+    font-weight: 500;
+}
+
+.descripcion{
+    font-size: 14px;
+}
+
+.precio{
+    font-size: 14px;
+    margin: 10px 0;
+    color: var(--grey);
+}
+
+#product_detail > div:nth-child(2){
+    display: flex;
+}
+
+#product_detail > div:nth-child(2) > div{
+    width: 50%;
+    padding-right: var(--padding_p_detail);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#product_detail > div:nth-child(2) h1{
+    font-size: 20px;
+}
+
+#product_detail p{
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+.buy{
+    width: 150px;
+    background: var(--blue);
+    border: 1px solid var(--blue);
+    padding: 5px 0;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+
+.buy:hover{
+    background: var(--white);
+    color: var(--blue);
+}
+
+.buy > i{
+    padding: 0 2px 0 0;
+}
+
+#product_detail img{
+    max-width: 100%;
+}
+
+@media(max-width:900px){
+    #product_detail{
+        width: 95vw;
+        height: auto;
+    }
+
+    #product_detail > div:nth-child(2){
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #product_detail > div:nth-child(2) > div{
+        width: 100%;
+    }
+
+    #product_detail > div:nth-child(2) > div:first-child{
+        margin-bottom: 10px;
+    }
+}

@@ -1,0 +1,30 @@
+[
+    {
+        "id":0,
+        "title":"Remera Puma Colores",
+        "talle":"Extra Large",
+        "precio":3000,
+        "descripcion_corta":"Remera Adidas de varios colores",
+        "descripcion":"Esta remera Puma fue realizada en material de algodón para mayor absorción de la transpiración al igual que no perder performance física y tu cuerpo pueda respirar",
+        "img":"0.jpg"
+        
+    },
+    {
+        "id":1,
+        "title":"Remera Puma Gris",
+        "talle":"Large",
+        "precio":3500,
+        "descripcion_corta":"Remera Adidas de color gris",
+        "descripcion":"Esta remera de Puma fue fabricada bajo principios que responden a la ecología",
+        "img":"1.jpg"
+    },
+    {
+        "id":2,
+        "title":"Remera Puma Clasica",
+        "talle":"Extra Large",
+        "precio":2500,
+        "descripcion_corta":"Remera Adidas de colores clásicos",
+        "descripcion":"Remera fabricada en fábricas de cálidad con materia prima de primera calidad",
+        "img":"3.jpeg"
+    }
+]

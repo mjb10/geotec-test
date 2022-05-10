@@ -1,0 +1,53 @@
+@import url("https://main.tecnosapiens.cloud/font-awesome-4.7.0/css/font-awesome.min.css");
+@import url("https://main.tecnosapiens.cloud/css/includes/all_fonts.css");
+
+:root{
+  /* Parámetros dimensionales: */
+  --header-height:70px;
+
+  /* Paleta de colores: */
+  --blue: rgb(19, 109, 212);
+  --white: white;
+  --grey: grey;
+
+  /* Sombras */
+  --shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+*{
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+body{
+  background: whitesmoke;
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+input{
+  outline: none;
+  border: none;
+  background: none;
+}
+
+button{
+  border: none;
+  background: none;
+}
+
+.none{
+  display: none;
+}
+
+.section{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+    display: flex;
+    flex-direction: column;
+}
